@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Helper function to create seaborn plots that share the same appearance attributes
 #   such as: heading, title, x-y labels, and placement of the legend
 # 
-def render_plot(ax, heading='', subtitle='', xlabel='', ylabel='', rotation=20, plotname='',displaybarlabel=True):
+def render_plot(ax, heading='', subtitle='', xlabel='', ylabel='', rotation=45, plotname='',displaybarlabel=True):
     
     plt.suptitle(heading, fontsize = 18)                        # main heading of the plot
     plt.title(subtitle, fontsize = 12)                          # sub title of the plot
